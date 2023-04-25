@@ -1,3 +1,11 @@
 .texto-cabeçalho{
     color: #fff;
 }
+
+section a {
+    color: #fff;
+}
+
+.conteudo{
+    margin: 60px 0px;
+}

@@ -18,33 +18,81 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-light bg-warning navbar-expand-md bg-body-tertiary">
-      <div class="container-fluid"></div>
+    <header> <!-- Cabeçalho-->
+    <nav class="navbar navbar-light bg-warning navbar-expand-md bg-body-tertiary"><!--Navegação-->
+            
+      <div class="container">
             <img class="navbar-brand" style="width: 142px;" src="images/logo.png" alt="">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
             </button>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
+          
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav ml-auto">
             <li class="navbar-nav-item">
               <a class="nav-link" href="">Home</a>
             </li>
             <li class="navbar-nav-item">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="">Recursos</a>
             </li>
             <li class="navbar-nav-item">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="">Beneficios</a>
             </li>
-            <li class="navbar-nav-item">
-              <a class="nav-link" href="">Home</a>
+            <li class="navbar-nav-item mr-4">
+              <a class="nav-link" href="">Preços</a>
             </li>
           </ul>  
-          <button class="btn btg-lg btn-outline-light" type="submit">Entra</button>
+          <button class="btn btg-lg btn-outline-light" type="submit">Entrar</button>
+
+          </div>
+        </div>
+    </nav><!--Fim navegação-->
+    
+
+    <section class="bg-warning">
+
+      <div class="container d-flex ">
+
+        <div class="col-6 d-flex align-items-center "> 
+          
+          <div class="texto-cabeçalho"><!--texto cabeçalho-->
+            <h1 class="display-4">Suas contas, descomplicadas</h1>
+            <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira. </p>
+            
+            <div class="input-group">
+              <input class="form-control form-control-lg" placeholder="Seu email" 
+              type="text">
+              <div class="input-group-append">
+                <span class="bg-primary btn btn-lg ">Cadastre-se</span>
+              </div>
+            </div>
+
+            <p class="mt-4">Disponivel para 
+            <a class="btn btn-outline-light" rel="stylesheet" href="">
+              <i class="fab fa-android fa-lg"></i>
+            </a>
+
+            <a class="btn btn-outline-light" rel="stylesheet" href="">
+              <i class="fa fa-apple fa-lg" aria-hidden="true"></i>
+            </a>
+          </p>
+          
+        </div>
+
+        </div>
+        
+        <!--Imagem-->
+        <div class="col-6 d-none d-md-block"> 
+            <img src="images/capa-mulher.png" alt="">
+        </div>
 
       </div>
 
-    </nav>
+
+    </section>
+  </header><!--Fim cabeçalho-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
